@@ -28,6 +28,6 @@ function changeColor(event){
 }
 function changeColorDefault(event){
 	let elem = event.target;
-	elem.style.backgroundColor = "#1D1D1D";
+	// elem.style.backgroundColor = "#1D1D1D";
 	elem.style.transition = "background-color 1s ease";
 }
